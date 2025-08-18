@@ -14,3 +14,17 @@ setTimeout(() => {
 }, 2800);
 
 // Stays on page 4 (no more timeouts)
+
+function showTexts() {
+    const texts = document.querySelectorAll("#page4 .appear");
+    texts.forEach((text, index) => {
+      setTimeout(() => {
+        text.classList.add("visible");
+      }, index * 500); // 0.5s delay for each text
+    });
+  }
+  
+  // Run when Page 4 is reached (after auto-scroll, ~6s if each page shows 2s)
+  setTimeout(showTexts, 6000);
+  
+  
