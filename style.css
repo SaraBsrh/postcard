@@ -53,8 +53,10 @@ body {
 
 /* Final page styling */
 #page4 {
-  background: #f0f0f0;
-  flex-direction: column;
-  text-align: center;
-  color: #333;
+    background: url("IMG_6499.JPEG") center/cover no-repeat;
+    color: white; /* text will show up nicely */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
