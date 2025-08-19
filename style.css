@@ -65,49 +65,211 @@ body {
   position: relative;
 }
 
-/* Container that holds all texts */
+
+/* تنظیمات کلی */
 .text-container {
-  display: flex;
-  flex-direction: column;   /* stack vertically */
-  align-items: center;      /* center horizontally */
-  justify-content: center;  /* center vertically */
-  height: 100vh;            /* full screen */
-  direction: rtl;           /* Persian support */
-  text-align: center;
-  gap: 5vh;                 /* space between texts */
+ position: relative;
+ width: 100vw;
+ height: 100vh;
+ overflow: hidden;
 }
 
-/* Each text line */
+/* فاصله بین خطوط اول تا سوم 1.5 */
 .text1 {
-  font-family: 'Vazirmatn', sans-serif;
-  font-size: 1em;
-  color: white;
-}
+  position: absolute;
+  bottom: 90%;
+  right: 40%;
 
+  font-size: 20px;
+  font-family: 'Gulzar';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
 .text2 {
-  font-family: 'Tahoma', sans-serif;
-  font-size: 2em;
-  color: #ffdddd;
-}
+  position: absolute;
+  bottom: 86%;
+  right: 37%;
 
+  font-size: 24px;
+  font-family: 'Dancing Script';
+  color: azure;
+  text-decoration: underline;
+  text-align: center;
+}
 .text3 {
-  font-family: 'Courier New', monospace;
-  font-size: 1.8em;
-  color: #ffeeaa;
-}
+    position: absolute;
+    bottom: 83%;
+    right: 41%;
+  
+    font-size: 20px;
+    font-family: 'Dancing Script';
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+  }
 
+/* گروه دوم */
 .text4 {
-  font-family: 'Times New Roman', serif;
-  font-size: 2.2em;
-  color: #aaffee;
-}
+  position: absolute;
+  bottom: 60%;
+  right: 10%;
 
+  font-size: 70px;
+  font-family: 'Gulzar';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
 .text5 {
-  font-family: 'Arial Black', sans-serif;
-  font-size: 2.8em;
-  color: #ddddff;
+  position: absolute;
+  bottom: 58%;
+  right: 25%;
+
+  font-size: 65px;
+  font-family: 'Gulzar';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+.text6 {
+  position: absolute;
+  bottom: 55%;
+  right: 30%;
+
+  font-size: 70px;
+  font-family: 'Gulzar';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
 }
 
+.text7 {
+  position: absolute;
+  bottom: 45%;
+  right: 30%;
+
+  font-size: 30px;
+  font-family: 'Gulzar';
+  color: azure;
+  text-decoration:dashed;
+  text-align: center;
+}
+.text8 {
+  position: absolute;
+  bottom: 32%;
+  right: 28%;
+
+  font-size: 20px;
+  font-family: 'Gulzar';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+.text9 {
+  position: absolute;
+  bottom: 23%;
+  right: 30%;
+
+  font-size: 27px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+.text10 {
+  position: absolute;
+  bottom: 23%;
+  right: 50%;
+
+  font-size: 27px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* گروه پنجم */
+.text11 {
+  position: absolute;
+  bottom: 13%;
+  right: 43%;
+
+  font-size: 70px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+
+.text12 {
+  position: absolute;
+  bottom: 18%;
+  right: 20%;
+
+  font-size: 30px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+.text13{
+  position: absolute;
+  bottom: 15%;
+  right: 27%;
+
+  font-size: 27px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+.text14{
+  position: absolute;
+  bottom: 16%;
+  right: 53%;
+
+  font-size: 20px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+
+.text15{
+  position: absolute;
+  bottom: 7%;
+  right: 15%;
+
+  font-size: 17px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+.text16{
+  position: absolute;
+  bottom: 3%;
+  right: 15%;
+
+  font-size: 13px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
+
+.text17{
+  position: absolute;
+  bottom: 3%;
+  right: 70%;
+
+  font-size: 13px;
+  font-family: 'Amiri';
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
 
 .appear {
   opacity: 0;
@@ -117,4 +279,19 @@ body {
 .appear.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+#play-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s;
+}
+#play-btn:hover {
+  background: rgba(255, 255, 255, 1);
 }

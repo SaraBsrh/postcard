@@ -1,4 +1,6 @@
 const container = document.querySelector('.scroll-container');
+const music = document.getElementById("bg-music");
+const playBtn = document.getElementById("play-btn");
 
 // Slide timings
 setTimeout(() => {
@@ -15,16 +17,24 @@ setTimeout(() => {
 
 // Stays on page 4 (no more timeouts)
 
+// Function to show texts on page 4
 function showTexts() {
-    const texts = document.querySelectorAll("#page4 .appear");
-    texts.forEach((text, index) => {
-      setTimeout(() => {
-        text.classList.add("visible");
-      }, index * 500); // 0.5s delay for each text
-    });
-  }
-  
-  // Run when Page 4 is reached (after auto-scroll, ~6s if each page shows 2s)
-  setTimeout(showTexts, 6000);
-  
-  
+  const texts = document.querySelectorAll("#page4 .appear");
+  texts.forEach((text, index) => {
+    setTimeout(() => {
+      text.classList.add("visible");
+    }, index * 500); // 0.5s delay for each text
+  });
+
+  // وقتی متن‌ها شروع به ظاهر شدن می‌کنن، دکمه پخش نشون داده بشه
+  playBtn.style.display = "block";
+}
+
+// Trigger texts after auto-scroll (around 6s total)
+setTimeout(showTexts, 6000);
+
+// Play music on button click
+playBtn.addEventListener("click", () => {
+  music.play();
+  playBtn.style.display = "none"; // hide button after click
+});
