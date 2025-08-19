@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  background: rgb(234, 201, 160);
+  background: rgb(134, 114, 89);
 }
 
 /* Fabrics */
@@ -122,7 +122,7 @@ body {
 .text5 {
   position: absolute;
   bottom: 58%;
-  right: 30%;
+  right: 35%;
 
   font-size: 65px;
   font-family: 'Gulzar';
@@ -178,7 +178,7 @@ body {
 .text10 {
   position: absolute;
   bottom: 23%;
-  right: 40%;
+  right: 50%;
 
   font-size: 27px;
   font-family: 'Amiri';
@@ -224,7 +224,7 @@ body {
 .text15{
   position: absolute;
   bottom: 7%;
-  right: 15%;
+  right: 10%;
 
   font-size: 17px;
   font-family: 'Amiri';
@@ -235,7 +235,7 @@ body {
 .text16{
   position: absolute;
   bottom: 3%;
-  right: 15%;
+  right: 10%;
 
   font-size: 13px;
   font-family: 'Amiri';
