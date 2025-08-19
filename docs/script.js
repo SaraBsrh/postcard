@@ -37,4 +37,5 @@ setTimeout(showTexts, 6000);
 playBtn.addEventListener("click", () => {
   music.play();
   playBtn.style.display = "none"; // hide button after click
+  playBtn.remove()
 });

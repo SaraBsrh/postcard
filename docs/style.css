@@ -64,9 +64,7 @@ body {
 #page4 {
   position: relative;
 }
-
-
-/* تنظیمات کلی */
+* تنظیمات کلی */
 .text-container {
  position: relative;
  width: 100vw;
@@ -80,7 +78,7 @@ body {
   bottom: 90%;
   right: 40%;
 
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Gulzar';
   color: azure;
   text-decoration: none;
@@ -88,10 +86,10 @@ body {
 }
 .text2 {
   position: absolute;
-  bottom: 85%;
+  bottom: 86%;
   right: 37%;
 
-  font-size: 34px;
+  font-size: 24px;
   font-family: 'Dancing Script';
   color: azure;
   text-decoration: underline;
@@ -99,10 +97,10 @@ body {
 }
 .text3 {
     position: absolute;
-    bottom: 80%;
+    bottom: 83%;
     right: 41%;
   
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Dancing Script';
     color: azure;
     text-decoration: none;
@@ -115,7 +113,7 @@ body {
   bottom: 60%;
   right: 10%;
 
-  font-size: 150px;
+  font-size: 70px;
   font-family: 'Gulzar';
   color: azure;
   text-decoration: none;
@@ -126,7 +124,7 @@ body {
   bottom: 58%;
   right: 25%;
 
-  font-size: 155px;
+  font-size: 65px;
   font-family: 'Gulzar';
   color: azure;
   text-decoration: none;
@@ -137,7 +135,7 @@ body {
   bottom: 55%;
   right: 30%;
 
-  font-size: 150px;
+  font-size: 70px;
   font-family: 'Gulzar';
   color: azure;
   text-decoration: none;
@@ -147,9 +145,9 @@ body {
 .text7 {
   position: absolute;
   bottom: 45%;
-  right: 20%;
+  right: 30%;
 
-  font-size: 60px;
+  font-size: 30px;
   font-family: 'Gulzar';
   color: azure;
   text-decoration:dashed;
@@ -158,9 +156,9 @@ body {
 .text8 {
   position: absolute;
   bottom: 32%;
-  right: 8%;
+  right: 28%;
 
-  font-size: 50px;
+  font-size: 20px;
   font-family: 'Gulzar';
   color: azure;
   text-decoration: none;
@@ -169,9 +167,9 @@ body {
 .text9 {
   position: absolute;
   bottom: 23%;
-  right: 20%;
+  right: 30%;
 
-  font-size: 47px;
+  font-size: 27px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -180,9 +178,9 @@ body {
 .text10 {
   position: absolute;
   bottom: 23%;
-  right: 60%;
+  right: 50%;
 
-  font-size: 47px;
+  font-size: 27px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -192,10 +190,10 @@ body {
 /* گروه پنجم */
 .text11 {
   position: absolute;
-  bottom: 17%;
+  bottom: 13%;
   right: 43%;
 
-  font-size: 90px;
+  font-size: 70px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -204,10 +202,10 @@ body {
 
 .text12 {
   position: absolute;
-  bottom: 20%;
+  bottom: 18%;
   right: 20%;
 
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -216,9 +214,9 @@ body {
 .text13{
   position: absolute;
   bottom: 15%;
-  right: 24%;
+  right: 27%;
 
-  font-size: 47px;
+  font-size: 27px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -229,7 +227,7 @@ body {
   bottom: 16%;
   right: 53%;
 
-  font-size: 40px;
+  font-size: 20px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -241,7 +239,7 @@ body {
   bottom: 7%;
   right: 15%;
 
-  font-size: 27px;
+  font-size: 17px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -252,7 +250,7 @@ body {
   bottom: 3%;
   right: 15%;
 
-  font-size: 23px;
+  font-size: 13px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
@@ -264,7 +262,7 @@ body {
   bottom: 3%;
   right: 70%;
 
-  font-size: 23px;
+  font-size: 13px;
   font-family: 'Amiri';
   color: azure;
   text-decoration: none;
